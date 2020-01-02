@@ -8,7 +8,7 @@
  As a result, the lessons for this function will pass *and* it will be available
  for you to use if you need it!
  */
-
+// creating employee
 let createEmployeeRecord = function(row) {
   return {
     firstName: row[0],
@@ -49,7 +49,7 @@ let createTimeOutEvent = function(dateStamp) {
 
   return this;
 };
-
+//hours work on that date
 let hoursWorkedOnDate = function(soughtDate) {
   let inEvent = this.timeInEvents.find(function(e) {
     return e.date === soughtDate;
